@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int ft_isalpha(int a){
     int x;
     x = 0;
@@ -10,10 +8,3 @@ int ft_isalpha(int a){
     return x;
 }
 
-
-
-int main(){
-    int x;
-    x = ft_isalpha('5');
-    printf("%d", x);
-}
